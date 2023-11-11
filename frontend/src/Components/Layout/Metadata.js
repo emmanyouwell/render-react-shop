@@ -1,6 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-const Metadata = () => {
+const MetaData = () => {
     return (
         <Helmet>
             <title>{`${title} - ShopIT`}</title>
@@ -8,4 +8,4 @@ const Metadata = () => {
     )
 }
 
-export default Metadata
+export default MetaData
